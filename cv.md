@@ -45,12 +45,10 @@ function DNAtoRNA(dna) {
 
 ### Project: 
 * __training__:
-  * 
-  * 
-  * 
+  * [Keksobooking](https://riomaria.github.io/351483-keksobooking-25/)
   
 * __own__: 
-  * [photographer's portfolio](https://nagrechishkina.com)
+  * [Photographer's portfolio](https://nagrechishkina.com)
 ---
 
 ### Courses: 
