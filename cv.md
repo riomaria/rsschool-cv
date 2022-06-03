@@ -1,8 +1,6 @@
-## Maria Brukhanova
----
-### About:
-* location: __Russia, Moscow__
+<p id="start"></p>
 
+## Maria Brukhanova
 ---
 
 ### Contacts:
@@ -72,6 +70,11 @@ function DNAtoRNA(dna) {
 * ![html academy](./img/sertificate/htmlAcademy.png)
 * ![html academy](./img/sertificate/itGid.png)
 
+---
+
 ### Languages
 * Russian - Native
 * English - Elementary
+
+---
+[Up](#start)
