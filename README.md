@@ -1,2 +1,2 @@
 # rsschool-cv
-for course in RSSchool
+[CV](https://riomaria.github.io/rsschool-cv/cv)
