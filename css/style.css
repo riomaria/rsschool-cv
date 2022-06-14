@@ -84,6 +84,8 @@
 }
 
 .page__container {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   width: 1200px;
   margin: 0 auto;
@@ -97,6 +99,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: auto;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -157,7 +160,7 @@
   grid-column: 3/4;
   grid-row: 1/4;
   justify-self: center;
-  padding-top: 120px;
+  padding-top: 115px;
   padding-left: 50px;
   position: relative;
 }
@@ -194,15 +197,14 @@
   grid-column: 1/2;
   grid-row: 1/3;
   position: relative;
-  justify-self: end;
-  max-width: 290px;
-  padding-top: 120px;
+  padding-top: 115px;
+  padding-right: 40px;
 } 
 
 .portfolio__item--profile::before {
   position: absolute;
-  top: 75px;
-  left: 150px;
+  top: 70px;
+  left: 240px;
   content: '';
   width: 340px;
   height: 150px;
@@ -213,7 +215,7 @@
 .portfolio__item--profile::after {
   position: absolute;
   top: 25px;
-  left: 80px;
+  left: 180px;
   content: '';
   width: 70px;
   height: 70px;
@@ -265,15 +267,13 @@
   grid-column: 1/2;
   grid-row: 3/6; 
   position: relative;
-  justify-self: center;
   padding-top: 20px;
-  padding-left: 50px;
 }
 
 .portfolio__item--skills::before {
   position: absolute;
   top: -120px;
-  left: 210px;
+  left: 240px;
   content: '';
   width: 240px;
   height: 240px;
@@ -284,7 +284,7 @@
 .portfolio__item--skills::after {
   position: absolute;
   top: -75px;
-  left: 140px;
+  left: 150px;
   content: '';
   width: 70px;
   height: 70px;
@@ -302,6 +302,7 @@
   grid-column: 3/3;
   grid-row: 4/7;
   transform: translateY(-70px);
+  padding-top: 20px;
   padding-left: 50px;
 }
 
@@ -309,14 +310,13 @@
   grid-column: 1/2;
   grid-row: 6/7;
   position: relative;
-  justify-self: center;
   padding-top: 20px;
 }
 
 .portfolio__item--language::before {
   position: absolute;
   top: -285px;
-  right: -185px;
+  left: 230px;
   content: '';
   width: 240px;
   height: 240px;
@@ -327,7 +327,7 @@
 .portfolio__item--language::after {
   position: absolute;
   top: -95px;
-  left: 120px;
+  left: 140px;
   content: '';
   width: 70px;
   height: 70px;
@@ -434,10 +434,14 @@
 /* USER */
 
 .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
 }
 
 .user__title {
+  max-width: 80%;
   margin: 0;
   padding: 0;
   margin-bottom: 15px;
@@ -601,7 +605,6 @@
 
 .education__info {
   flex: 1 1 100%;
-  max-width: 250px;
   margin-bottom: 8px;
   font-size: 12px;
 }
@@ -805,8 +808,8 @@
 
 .school__logo {
   display: block;
-  width: 65px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   margin-right: 10px;
 }
 
@@ -821,8 +824,14 @@
 .git-page__link {
   display: block;
   text-align: center;
-  padding: 5px 10px;
+  padding: 5px;
   text-decoration: none;
+}
+
+.git-page__icon {
+  width: 22px;
+  height: 22px;
+  fill: var(--text__basic);
 }
 
 .git-page__link:hover .git-page__icon {
@@ -837,5 +846,4 @@
 
 .copyright {
   font-size: 12px;
-  align-self: flex-end;
 }
