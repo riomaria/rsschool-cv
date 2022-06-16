@@ -346,6 +346,12 @@
   grid-row: 6/7;
 } 
 
+/* NAVIGATION */
+
+.main-nav {
+  display: none;
+}
+
 /* PHOTO */
 
 .avatar__inner {
