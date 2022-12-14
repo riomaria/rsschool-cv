@@ -46,7 +46,7 @@ function DNAtoRNA(dna) {
 ### Project: 
 * __training__:
   * [Keksobooking](https://riomaria.github.io/351483-keksobooking-25/)
-  * [Nerds](https://riomaria.github.io/351483-nerds-30/)
+  * [Keksobooking](https://riomaria.github.io/351483-nerds-30/)
   
 ---
 
